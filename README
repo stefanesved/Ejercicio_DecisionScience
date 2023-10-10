@@ -2,3 +2,9 @@
  Ejercicio Decicion Science - Stefane Sved 
 ----------------------------------------------------------
 
+Este repositorio contiene los siguientes archivos:
+
+-> un archivo ".db" llamado 'mydatabase' este archivo es una base de datos creada a partir del archivo 'sampleData.csv' en donde se realizaron los queries SQL pedidos en el PDF.
+-> un archivo ".ipynb" que contiene todos los queries de manera visual (se puede apreciar los queries y el resultado del query)
+(este documento esta en un archivo notebook para poder apreciar los queries, se applica usando sqlite usando python como puente en la base de datos "mydatabase.db")
+->  
