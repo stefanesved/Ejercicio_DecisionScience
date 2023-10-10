@@ -1,0 +1,35 @@
+Client Table,,,,,
+Client_ID,First_Name,Last_Name,Email,Phone,Date_of_Birth
+1,John,Doe,john.doe@email.com,1234567890,01/01/85
+2,Jane,Smith,jane.smith@email.com,987654321,15/05/90
+3,Emily,Johnson,emily.johnson@email.com,1122334455,21/09/87
+,,,,,
+Product Table,,,,,
+Product_ID,Product_Name,Product_Type,Price,,
+1,Credit Card,Financial,0,,
+2,Savings Account,Financial,0,,
+3,Personal Loan,Financial,0,,
+,,,,,
+Transaction Table,,,,,
+Transaction_ID,Client_ID,Product_ID,Transaction_Date,Amount,
+1,1,1,01/01/23,1000,
+2,2,2,02/01/23,2000,
+3,3,3,03/01/23,3000,
+,,,,,
+Loan Table,,,,,
+Loan_ID,Client_ID,Loan_Amount,Interest_Rate,Start_Date,End_Date
+1,1,10000,5,01/01/23,01/01/24
+2,2,20000,6,02/01/23,02/01/24
+3,3,30000,7,03/01/23,03/01/24
+,,,,,
+Balance Table,,,,,
+Balance_ID,Client_ID,Product_ID,Balance,Last_Updated,
+1,1,1,1000,01/01/23,
+2,2,2,2000,02/01/23,
+3,3,3,3000,03/01/23,
+,,,,,
+Prospect Table,,,,,
+Prospect_ID,First_Name,Last_Name,Email,Phone,Source
+1,Alice,Williams,alice.williams@email.com,1231231231,Online
+2,Bob,Miller,bob.miller@email.com,3213213213,Referral
+3,Charlie,Brown,charlie.brown@email.com,2132132132,Event
